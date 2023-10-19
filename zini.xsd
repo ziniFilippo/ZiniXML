@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mappaElettrica">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="servizio" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="comune" type="xs:string"></xs:element>
+                                        <xs:element name="provincia" type="xs:string"></xs:element>
+                                        <xs:element name="regione" type="xs:string"></xs:element>
+                                        <xs:element name="dataOraInserimento" type="xs:string"></xs:element>
+                                        <xs:element name="identificatoreOSM" type="xs:string"></xs:element>
+                                        <xs:element name="longitudine" type="xs:string"></xs:element>
+                                        <xs:element name="latitudine" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="nome" type="xs:string" ></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="tipo" type="xs:string" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
