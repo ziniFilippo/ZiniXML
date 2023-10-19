@@ -1,14 +1,14 @@
 <!DOCTYPE mappaElettrica[
-<!ELEMENT mappaElettrica(servizio)>
-<!ELEMENT servizio(nome)>
-<!ATTLIST servizio tipo CDATA #REQUIRED>
-<!ELEMENT nome(comune,provincia,regione,dataOraInserimento,identificatoreOSM,longitudine,latitudine)>
-<!ATTLIST nome nome CDATA #IMPLIED>
-<!ELEMENT comune(#PCDATA)>
-<!ELEMENT provincia(#PCDATA)>
-<!ELEMENT regione(#PCDATA)>
-<!ELEMENT dataOraInserimento(#PCDATA)>
-<!ELEMENT identificatoreOSM(#PCDATA)>
-<!ELEMENT latitudine(#PCDATA)>
-<!ELEMENT longitudine(#PCDATA)>
+    <!ELEMENT mappaElettrica (servizio+)>
+    <!ELEMENT servizio (nome+)>
+    <!ATTLIST servizio tipo CDATA #REQUIRED>
+    <!ELEMENT nome (comune,provincia,regione,dataOraInserimento,identificatoreOSM,longitudine,latitudine)>
+    <!ATTLIST nome nome CDATA #IMPLIED>
+    <!ELEMENT comune (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT regione (#PCDATA)>
+    <!ELEMENT dataOraInserimento (#PCDATA)>
+    <!ELEMENT identificatoreOSM (#PCDATA)>
+    <!ELEMENT latitudine (#PCDATA)>
+    <!ELEMENT longitudine (#PCDATA)>
 ]>
