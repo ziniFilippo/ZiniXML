@@ -17,14 +17,14 @@
                     </tr>
                     <xsl:for-each select="mappaElettrica/servizio/nome">
                         <tr>
-                            <td><xsl:value-of select="nome/@nome"/></td>
+                            <td><xsl:value-of select="@nome"/></td>
                             <td><xsl:value-of select="comune/@nome"/></td>
-                            <td><xsl:value-of select="provincia"/></td>
-                            <td><xsl:value-of select="regione"/></td>
-                            <td><xsl:value-of select="dataOraInserimento"/></td>
-                            <td><xsl:value-of select="identificatoreOSM"/></td>
-                            <td><xsl:value-of select="longitudine"/></td>
-                            <td><xsl:value-of select="latitudine"/></td>
+                            <td><xsl:value-of select="comune/provincia"/></td>
+                            <td><xsl:value-of select="comune/regione"/></td>
+                            <td><xsl:value-of select="comune/dataOraInserimento"/></td>
+                            <td><xsl:value-of select="comune/identificatoreOSM"/></td>
+                            <td><xsl:value-of select="comune/longitudine"/></td>
+                            <td><xsl:value-of select="comune/latitudine"/></td>
                         </tr>
                     </xsl:for-each>
                 </table>
