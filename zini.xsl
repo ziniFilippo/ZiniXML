@@ -17,8 +17,8 @@
                     </tr>
                     <xsl:for-each select="mappaElettrica/servizio/nome">
                         <tr>
-                            <td><xsl:value-of select="@nome"/></td>
-                            <td><xsl:value-of select="@comune"/></td>
+                            <td><xsl:value-of select="nome/@nome"/></td>
+                            <td><xsl:value-of select="comune/@nome"/></td>
                             <td><xsl:value-of select="provincia"/></td>
                             <td><xsl:value-of select="regione"/></td>
                             <td><xsl:value-of select="dataOraInserimento"/></td>
