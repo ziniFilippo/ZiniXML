@@ -3,42 +3,46 @@
 <mappaElettrica>
     <servizio tipo="Elettronica">
         <nome nome="MediaWorld">
-            <comune>Beinasco</comune>
-            <provincia>citta' metropolitana di Torino</provincia>
-            <regione>Piemonte</regione>
-            <dataOraInserimento>2015-11-04T10:44:41Z</dataOraInserimento>
-            <identificatoreOSM>3816860934</identificatoreOSM>
-            <longitudine>7.5927452</longitudine>
-            <latitudine>45.0237806</latitudine> 
+            <comune nome="Beinasco">
+                <provincia>citta' metropolitana di Torino</provincia>
+                <regione>Piemonte</regione>
+                <dataOraInserimento>2015-11-04T10:44:41Z</dataOraInserimento>
+                <identificatoreOSM>3816860934</identificatoreOSM>
+                <longitudine>7.5927452</longitudine>
+                <latitudine>45.0237806</latitudine>
+            </comune>
         </nome>
         <nome nome="">
-            <comune>Carignano</comune>
-            <provincia>citta' metropolitana di Torino</provincia>
-            <regione>Piemonte</regione>
-            <dataOraInserimento>2016-02-08T23:56:28Z</dataOraInserimento>
-            <identificatoreOSM>3996476434</identificatoreOSM>
-            <longitudine>7.6744785</longitudine>
-            <latitudine>44.9072681</latitudine>
+            <comune nome="Carignano">
+                <provincia>citta' metropolitana di Torino</provincia>
+                <regione>Piemonte</regione>
+                <dataOraInserimento>2016-02-08T23:56:28Z</dataOraInserimento>
+                <identificatoreOSM>3996476434</identificatoreOSM>
+                <longitudine>7.6744785</longitudine>
+                <latitudine>44.9072681</latitudine>
+            </comune>
         </nome>
         <nome nome="">
-            <comune>Caselle Torinese</comune>
-            <provincia>citta' metropolitana di Torino</provincia>
-            <regione>Piemonte</regione>
-            <dataOraInserimento>2014-07-22T12:22:58Z</dataOraInserimento>
-            <identificatoreOSM>2974256007</identificatoreOSM>
-            <longitudine>7.7077437</longitudine>
-            <latitudine>45.1478392</latitudine>
+            <comune nome="Caselle Torinese">
+                <provincia>citta' metropolitana di Torino</provincia>
+                <regione>Piemonte</regione>
+                <dataOraInserimento>2014-07-22T12:22:58Z</dataOraInserimento>
+                <identificatoreOSM>2974256007</identificatoreOSM>
+                <longitudine>7.7077437</longitudine>
+                <latitudine>45.1478392</latitudine>
+            </comune>
         </nome>
     </servizio>
     <servizio tipo="Elettricista">
         <nome nome="ErtolaArmando">
-            <comune>Castellamonte</comune>
-            <provincia>citta' metropolitana di Torino</provincia>
-            <regione>Piemonte</regione>
-            <dataOraInserimento>2013-03-18T12:46:06Z</dataOraInserimento>
-            <identificatoreOSM>2177684711</identificatoreOSM>
-            <longitudine>7.7161456</longitudine>
-            <latitudine>45.382849</latitudine>
+            <comune nome="Castellamonte">
+                <provincia>citta' metropolitana di Torino</provincia>
+                <regione>Piemonte</regione>
+                <dataOraInserimento>2013-03-18T12:46:06Z</dataOraInserimento>
+                <identificatoreOSM>2177684711</identificatoreOSM>
+                <longitudine>7.7161456</longitudine>
+                <latitudine>45.382849</latitudine>
+            </comune>
         </nome>
     </servizio>
 </mappaElettrica>
