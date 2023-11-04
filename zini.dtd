@@ -1,9 +1,10 @@
 <!ELEMENT mappaElettrica (servizio+)>
 <!ELEMENT servizio (nome+)>
 <!ATTLIST servizio tipo CDATA #REQUIRED>
-<!ELEMENT nome (comune,provincia,regione,dataOraInserimento,identificatoreOSM,longitudine,latitudine)>
+<!ELEMENT nome (comune+)>
 <!ATTLIST nome nome CDATA #IMPLIED>
-<!ELEMENT comune (#PCDATA)>
+<!ELEMENT comune (provincia,regione,dataOraInserimento,identificatoreOSM,longitudine,latitudine)>
+<!ATTLIST comune nome CDATA #IMPLIED>
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT regione (#PCDATA)>
 <!ELEMENT dataOraInserimento (#PCDATA)>
